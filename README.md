@@ -5,6 +5,7 @@ This project demonstrates the use of Splunk Enterprise to monitor and analyze Wi
 
 ## Architecture
 ![Splunk Windows Authentication Monitoring Architecture](screenshots/Splunk-windows-authentication-monitoring-architecture.png)
+This architecture shows how Windows Security Event Logs (Event IDs 4624 and 4625) are collected by the Splunk Universal Forwarder, indexed in Splunk Enterprise, analyzed using SPL searches, visualized through dashboards, and used for security monitoring and incident analysis.
 
 ## Objectives
 
