@@ -1,5 +1,7 @@
 # Splunk-windows-authentication-lab
 ## Overview
+**Project Type:** SIEM Authentication Monitoring Lab  
+**Environment:** Windows 11, Splunk Enterprise, and Splunk Universal Forwarder
 
 This project demonstrates the use of Splunk Enterprise to monitor and analyze Windows authentication activity.
 
@@ -14,14 +16,17 @@ This architecture shows how Windows Security Event Logs (Event IDs 4624 and 4625
 - Detect brute-force attacks
 - Monitor successful logins
 - Monitor account lockouts
-- Create dashboards and alerts
-- Document findings
+- Create dashboards and visualizations
+- Document findings and observations
 
-## Tools
+## Technologies Used
 
 - Splunk Enterprise
-- Windows Event Logs
+- Splunk Universal Forwarder
+- Windows 11
+- Windows Security Event Logs
 - SPL (Search Processing Language)
+- GitHub
 
 ## Project Structure
 
@@ -39,6 +44,11 @@ sample-data/
 3. Brute Force Detection
 4. Account Lockout Detection
 5. Authentication Dashboard
+
+## Windows Event IDs Monitored
+
+- Event ID 4624 – Successful logon
+- Event ID 4625 – Failed logon attempt
 
 ## Screenshots
 
@@ -81,21 +91,29 @@ sample-data/
 ### Main Index Search
 ![Splunk Main Index Search](screenshots/splunk-main-index-search.jpg)
 
+## Key Findings
+
+- Successfully ingested Windows Security logs into Splunk Enterprise.
+- Created SPL searches to identify successful and failed logins.
+- Visualized authentication activity through dashboards and charts.
+- Demonstrated the ability to investigate authentication events and identify suspicious login patterns.
+
 
 ## Skills Demonstrated
 
 - Splunk Enterprise Administration
 - Windows Event Log Analysis
 - SPL Query Development
-- Dashboard Creation
+- Dashboard Development and visualization 
 - Authentication Monitoring
 - Brute-force Detection
-- Security Event Investigation
+- Authentication Event Investigation
 
 
 ## Future Improvements
 
 - Create alerts for repeated failed login attempts.
-- Add account lockout monitoring using Event ID 4740.
+- Implement account lockout detection using Event ID 4740.
 - Add more Windows Security Event IDs.
 - Build additional authentication dashboards.
+- Configure Splunk alerts for suspicious authentication activity.
