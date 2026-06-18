@@ -4,7 +4,7 @@
 This project demonstrates the use of Splunk Enterprise to monitor and analyze Windows authentication activity.
 
 ## Architecture
-![Splunk Windows Authentication Monitoring Architecture](screenshots/Splunk%20_Windows_Authentication_Monitoring_Architecture.drawio.png)
+![Splunk Windows Authentication Monitoring Architecture](screenshots/splunk-windows-authentication-monitoring-architecture.png)
 
 ## Objectives
 
@@ -81,6 +81,7 @@ sample-data/
 
 
 ## Skills Demonstrated
+
 - Splunk Enterprise Administration
 - Windows Event Log Analysis
 - SPL Query Development
@@ -91,6 +92,7 @@ sample-data/
 
 
 ## Future Improvements
+
 - Create alerts for repeated failed login attempts.
 - Add account lockout monitoring using Event ID 4740.
 - Add more Windows Security Event IDs.
