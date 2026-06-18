@@ -4,7 +4,7 @@
 This project demonstrates the use of Splunk Enterprise to monitor and analyze Windows authentication activity.
 
 ## Architecture
-![Splunk Windows Authentication Monitoring Architecture](screenshots/splunk-windows-authentication-monitoring-architecture.png)
+![Splunk Windows Authentication Monitoring Architecture](screenshots/Splunk-windows-authentication-monitoring-architecture.png)
 
 ## Objectives
 
